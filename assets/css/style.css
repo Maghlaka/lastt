@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+
+ background-color: #F55A5A;
+ height: 55px;
+ padding-top: 16px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin: auto;
+    align-items: center;
+}
+.japan{
+    display: flex;
+    gap: 19px;   
+}
+.AUSTRALIA{
+    display: flex;
+    gap: 19px;
+}
+.NORWAY{
+    display: flex;
+    gap: 19px;
+}
+
+
+
+.sections{
+    width: 85%;
+    margin:45px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.description{
+    font-size: 10.24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.description a{
+    color: #918E9B;
+    
+}
+a:hover{
+    background-color: #baf5ff;
+}
+.sections h2{
+    font-size: 10.24px;
+    font-weight: 400;
+}
+.sections h1{
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    
+}
+
+.sections h3{
+    margin-bottom: 9px;
+    font-size: 10.24px;
+    font-weight: 700;
+}
+.sections p{
+    font-size: 10.24px;
+    font-weight: 400;
+}
