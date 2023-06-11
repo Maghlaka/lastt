@@ -4,9 +4,18 @@
     box-sizing: border-box;
 
 }
+@font-face {
+    font-family: 'inter';
+    src: url(../font/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter-Regular.ttf);
+}
 body{
     max-width: 1920px;
     width: 100%;
+    font-family: 'inter';
 }
 header{
 
@@ -24,14 +33,26 @@ header{
 .japan{
     display: flex;
     gap: 19px;   
+    width: 80%;
+    margin: auto;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #F5F5F5;
 }
 .AUSTRALIA{
     display: flex;
     gap: 19px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #F5F5F5;
 }
 .NORWAY{
     display: flex;
     gap: 19px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 
@@ -42,7 +63,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
 
 }
 .description{
@@ -77,4 +98,14 @@ a:hover{
 .sections p{
     font-size: 10.24px;
     font-weight: 400;
+}
+@media (width <= 768px){
+    .japan, .AUSTRALIA,  .NORWAY{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+    }
+    
 }
